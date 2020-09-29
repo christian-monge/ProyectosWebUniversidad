@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/080f6bd1ac.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div id="div-header">
+            <div id="barra-logo">
+                <img id="logo" src="images/logo.png" alt="Logo">
+            </div>
+            <div id="barra-nav">
+                <nav>
+                    <a id="primer-der" href="#">CONTACTO</a>
+                    <a href="#">BLOG</a>
+                    <a href="#">PROYECTOS</a>
+                    <a href="#">CONSULTORÍA BIOCLIMÁTICA</a>
+                    <a href="#">DISEÑO Y CONSTRUCCIÓN</a>
+                    <a href="#">INICIO</a>
+                </nav>
+
+            </div>
+            <div id="info-header">
+                <p id="texto-header">INICIEMOS SU GRAN PROYECTO</p><br>
+                <p id="titulo-header">Conversemos</p><br>
+                <div id="contactos-header">
+                    <div id="div-izq">
+                        <hr>
+                        <p class="tam-contacto-header">TELÉFONO</p>
+                        <P>+506-8341-4946</P>
+                    </div>
+                    <div id="div-center">
+                        <hr>
+                        <p class="tam-contacto-header">SKYPE</p>
+                        <P>biokinetic_studio</P>
+                    </div>
+                    <div id="div-der">
+                        <hr>
+                        <p class="tam-contacto-header">CORREO</p>
+                        <P>alejandro@biokineticstudio.com</P>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </header>
+    <main>
+        <section>
+            <div id="formulario">
+                <div id="form-izq">
+                    <input class="txt-input" type="text" id="nombre" placeholder="Nombre"><br>
+                    <input class="txt-input" type="tel" id="telefono" placeholder="Teléfono"><br>
+                    <select class="txt-input" id="servicio" id="servicio" name="servicio">
+                        <option value="" disabled selected hidden>¿Qué servicio desea?</option>
+                        <option value="Servicio1">Servicio 1</option>
+                        <option value="Servicio2">Servicio 2</option>
+                        <option value="Servicio3">Servicio 3</option>
+                        <option value="Servicio4">Servicio 4</option>
+                    </select><br>
+                    <select class="txt-input" id="contacto" id="contacto" name="contacto">
+                        <option value="" disabled selected hidden>¿Cómo desea que lo contactémos?</option>
+                        <option value="Contacto1">Contacto 1</option>
+                        <option value="Contacto2">Contacto 2</option>
+                        <option value="Contacto3">Contacto 3</option>
+                        <option value="Contacto4">Contacto 4</option>
+                    </select>
+                </div>
+                <div id="form-der">
+                    <textarea class="txt-input" name="mensaje" id="mensaje" placeholder="Mensaje"></textarea>
+
+                </div>
+                <div id="div-btn">
+                    <button  type="button" id="btn-enviar">ENVIAR</button>
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div id="div-footer">
+            <div id="logo-footer">
+                <img id="logo-div" src="images/logo.png" alt="Logo">
+            </div>
+            <div id="contacto-footer">
+                <p id="txt-contacto">CONTACTO</p>
+                <p class="text-footer">+506-8341-4946</p>
+                <p class="text-footer">alejandro@biokineticstudio.com</p>
+                <p class="text-footer">Barrio Escalante, San José, Costa Rica</p>
+            </div>
+            <div id="pie-footer">
+                <p>2018 © Todos los derechos reservados.</p>
+                <hr>
+                <p id="txt-pie-bold">Desarrollo por Pico e'Gallo Digital Studio</p>
+
+            </div>
+            <div id="fb-icon">
+                <a href="http://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <script src="js/controlador.js"></script>
+</body>
+
+</html>

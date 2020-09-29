@@ -1,0 +1,290 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+#barra-logo {
+    float: left;
+}
+
+hgroup {
+    margin-left: 40px;
+    padding-top: 5px;
+	color: #FFFFFF;
+}
+
+hgroup h2 {
+    font-family: 'Comfortaa', cursive;
+    font-size: xx-large;
+}
+
+hgroup h3 {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: medium;
+}
+
+#navegacion a#brand {
+    padding: 20px;
+    font-size: 32px;
+    float: left;
+
+}
+
+#navegacion a {
+    color: #FFFFFF;
+    font-size: 16px;
+    text-decoration: none;
+    float: right;
+    margin-right: 30px;
+    padding-top: 27px;
+}
+
+header {
+    padding: 10px 0;
+    background-color: #2C3E50;
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+}
+
+#banner {
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #2271b3;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 5%;
+}
+
+#profile {
+    padding-top: 40px;
+}
+
+#txt_nombre {
+    padding-top: 20px;
+    font-size: 60px;
+}
+
+#portafolio .txt_titulo_porta {
+    margin-top: 40px;
+    padding-top: 20px;
+    font-size: 60px;
+    color: #2C3E50;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+#txt_secundario {
+    padding-top: 20px;
+    font-size: 30px;
+    padding-bottom: 60px;
+
+    border: initial 1px solid blue;
+}
+
+#linea_div {
+    padding-top: 15px;
+    font-size: 30px;
+
+}
+
+
+#portafolio .linea_div_porta {
+    padding-top: 30px;
+    font-size: 30px;
+    color: #2C3E50;
+    text-align: center;
+}
+
+#portafolio img {
+    height: 200px;
+
+}
+
+#portafolio {
+    background-color: #FFFFFF;
+    margin-bottom: 50%;
+}
+
+#portafolio .grid-row1 {
+    float: left;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+#portafolio .grid-row2 {
+    float: left;
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+#about {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #2271b3;
+    padding-bottom: 5%;
+}
+
+#txt_titulo_about {
+    margin-top: 60px;
+    padding-top: 60px;
+    font-size: 60px;
+    color: #FFFFFF;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+#linea_div_about {
+    padding-top: 15px;
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
+#about .bloque-about1 {
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+#about .bloque-about2 {
+    float: right;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#about .bloque-about3 {
+    margin-top: 20%;
+    float: center;
+}
+
+#about .parrafo-about {
+    line-height: 40px;
+    size: 20px;
+}
+
+#about a {
+    padding: 15px 35px;
+    background: #2271b3;
+    border: 1px solid #ffffff;
+    color: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+
+
+}
+
+#txt_titulo_contacto {
+    margin-top: 40px;
+    padding-top: 20px;
+    font-size: 60px;
+    color: #2C3E50;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+#linea_div_contacto {
+    padding-top: 15px;
+    font-size: 30px;
+    color: #2C3E50;
+    text-align: center;
+    padding-bottom: 30px;
+
+}
+#form {
+	text-align: center;
+	
+}
+::placeholder {
+    color: #495057;
+    font-size: medium;
+}
+
+#contact .txt-dato {
+    border: none;
+    border-bottom: 3px solid #2C3E50;
+    text-decoration: none;
+    height: 35px;
+    width: 475px;
+    
+}
+
+#contact .txt-dato-area {
+    border: none;
+    border-bottom: 3px solid #2C3E50;
+    text-decoration: none;
+    height: 120px;
+    width: 475px;
+    
+}
+
+#contact .boton-send {
+    padding: 15px 35px;
+    background: #0061a9;
+    border: 1px solid #ffffff;
+    color: #fff;
+    border-radius: 7px;
+    text-decoration: none;
+    
+    margin-top: 1%;
+    margin-bottom: 5%;
+    font-size: 15px;
+}
+
+
+
+#footer .titulo-footer-1 {
+    font-size: 24px;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+#footer .texto-footer {
+    font-size: 16px;
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+
+}
+
+#footer .redes {
+    height: 40px;
+    padding-right: 10px;
+}
+
+#footer-2 .texto-footer {
+    
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+}
+
+#footer {
+    max-width: 100%;
+    padding: 1.25em;
+    margin: 0 auto;
+    background-color: #2C3E50;
+    color: #ffffff;
+	font-size: 16px;
+    color: #2C3E50;
+    font-family: 'Lato', sans-serif;
+}
+
+#footer div {
+    display: table-cell;
+    width: 33.333%;
+    padding: 5em;
+    text-align: center;
+}
+
+#footer-2 {
+
+    max-width: 100%;
+    padding: 1.25em;
+    margin: 0 auto;
+    font-size: 16px;
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    background-color: #1A252F;
+    text-align: center;
+}

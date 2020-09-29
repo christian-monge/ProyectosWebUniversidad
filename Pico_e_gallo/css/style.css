@@ -1,0 +1,264 @@
+/*inicio de estilos generales*/
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+}
+
+section {
+    height: 500px;
+    background-color: #ffffff;
+    
+}
+
+header {
+    height: 660px;
+    background-color: #ffffff;
+}
+footer {
+    height: 500px;
+    background-color: #ffffff;
+}
+a:hover{
+    color: beige;
+}
+
+
+/*fin de estilos generales*/
+
+/*inicio de estilos del header*/
+#primer-der {
+    margin-right: 3rem;
+    padding-top: 3rem;
+}
+
+header a {
+    color: #ffffff;
+    font-size: 14px;
+    text-decoration: none;
+    float: right;
+    margin-right: 3rem;
+    padding-top: 3rem;
+}
+
+#barra-logo {
+    float: left;
+}
+
+#logo {
+    margin-left: 1rem;
+    padding-top: 1rem;
+    width: 4rem;
+}
+
+#div-header {
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.3)
+      ),
+      url("../images/cabecera.jpg");
+    background-size: 100% 660px;
+    background-repeat: no-repeat;
+    
+}
+#barra-nav{
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 3px;
+}
+#info-header {
+    padding-top: 5rem;
+    clear: both;
+    
+    text-align: center;
+    height: 500px;
+    margin-left:3;
+    color: #ffffff;
+}
+#info-header hr{
+    width: 15rem;
+    margin-left:2;
+    margin-bottom: 2rem;
+}
+#titulo-header {
+    padding-top: 3rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+#texto-header {
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 3px;
+    font-size: 18px;
+}
+#contactos-header{
+    width: 100%;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+#div-izq, #div-center, #div-der{
+    text-align: center;
+    display: inline-block;
+    
+    line-height: 3rem;
+    padding-top: 3rem;
+}
+.tam-contacto-header{
+    font-size: 14px;
+}
+
+/*fin de estilos del header*/
+
+/*inicio de estilos del section*/
+#formulario{
+    width: 100%;
+    
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    
+}
+#form-izq{
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 100px;
+    margin-right: 1rem;
+}
+#form-der{
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 100px;
+    
+}
+#formulario input{
+    height: 60px;
+    width: 430px;
+    margin-bottom: 1rem;
+}
+#formulario select{
+    height: 63px;
+    width: 432px;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+}
+#formulario textarea{
+    height: 300px;
+    width: 435px;
+    
+}
+#formulario input{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: gray;
+    background-color: rgb(238, 234, 234);
+    
+    
+}
+#formulario select{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: gray;
+    background-color: rgb(238, 234, 234);
+    
+    
+}
+.txt-input{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: gray;
+    background-color: rgb(238, 234, 234);
+    border: none;
+    
+}
+#div-btn{
+    width: 83%;
+    text-align: right;
+}
+#btn-enviar{
+    font-weight: bold;
+    background-color: #ffffff;
+    border: none;
+    
+}
+.error{
+    border: 3px solid red;
+}
+/*fin de estilos del section*/
+
+/*inicio de estilos del footer*/
+#div-footer {
+    height: 100%;
+    width: 100%;
+    letter-spacing: 2px;
+    font-family: 'Open Sans', sans-serif;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)
+      ),
+      url("../images/pie.jpg");
+    background-size: 100% 500px;
+    background-repeat: no-repeat;
+    
+}
+
+#logo-footer, #contacto-footer{
+    width: 45%;
+    
+    display: inline-block;
+    margin-right: 4rem;
+    
+}
+#contacto-footer{
+    text-align: right;
+    vertical-align: top;
+    
+}
+#pie-footer{
+    width: 100%;
+    margin-top: 3rem;
+}
+#pie-footer p,hr{
+    margin-top: 4rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    font-size: 11px;
+}
+#pie-footer hr{
+    border: 1px solid rgb(56, 56, 56);
+    
+}
+#logo-div{
+    margin-left: 4rem;
+    padding-top: 3rem;
+    width: 8rem;
+}
+#txt-contacto{
+    line-height: 7rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    letter-spacing: 3px;
+    margin-top: 2rem;
+}
+.text-footer{
+    font-size: 11px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    line-height: 25px;
+}
+#txt-pie-bold{
+    font-weight: bold;
+}
+#div-footer a{
+    color: #ffffff;
+    font-size: xx-large;
+   
+}
+#fb-icon{
+    margin-right: 4rem;
+    text-align: right;
+}
+/*fin de estilos del footer*/

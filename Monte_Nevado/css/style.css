@@ -1,0 +1,264 @@
+/*inicio de estilos generales*/
+body {
+    font-family: 'Cabin', sans-serif;
+    color: #ffffff;
+}
+
+section {
+    height: 500px;
+    background-color: black;
+}
+
+header {
+    height: 660px;
+    background-color: black;
+}
+a:hover{
+    color: #42dca3;
+}
+
+/*fin de estilos generales*/
+
+/*inicio de estilos del header*/
+#primer-der {
+    margin-right: 140px;
+    padding-top: 30px;
+}
+
+header a {
+    color: #ffffff;
+    font-size: 16px;
+    text-decoration: none;
+    float: right;
+    margin-right: 30px;
+    padding-top: 30px;
+}
+
+#barra-logo {
+    float: left;
+}
+
+hgroup {
+    margin-left: 80px;
+    padding-top: 25px;
+}
+
+hgroup h2 {
+    font-family: 'Comfortaa', cursive;
+    font-size: xx-large;
+}
+
+hgroup h3 {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: medium;
+}
+
+#div-header {
+    height: 100%;
+    width: 100%;
+
+    background-image: url("../images/intro-bg.jpg");
+    background-size: 100% 660px;
+    background-repeat: no-repeat;
+}
+
+#info-header {
+    padding-top: 80px;
+    clear: both;
+    margin-left: 25%;
+    width: 47%;
+    height: 500px;
+    text-align: center;
+    color: #ffffff;
+}
+
+#titulo-header {
+    
+    font-size: 100px;
+}
+
+#texto-header {
+    padding-top: 50px;
+    font-size: 22px;
+}
+#flecha {
+    padding-top: 50px;
+    font-size: 30px;
+}
+/*fin de estilos del header*/
+/*inicio de estilos de la sección Monte Nevado*/
+#monte-seccion {
+    align-items: center;
+    height: 620px;
+}
+
+#monte-div {
+    
+    margin-left: 25%;
+    background-color: black;
+    width: 47%;
+    height: 500px;
+    vertical-align: text-bottom;
+    line-height: 30px;
+    text-align: center;
+    color: #ffffff;
+
+}
+
+#monte-div span {
+    color: #42dca3;
+}
+
+#monte-nevado-titulo {
+    padding-top: 22%;
+    padding-bottom: 2%;
+    font-size: 32px;
+
+}
+
+#monte-nevado-parrafo {
+    font-size: 18px;
+
+}
+
+/*inicio de estilos de la sección Monte Nevado*/
+/*inicio de estilos de la sección descuentos*/
+#desc-seccion {
+    align-items: center;
+    height: 620px;
+}
+#descuento {
+    height: 80%;
+    width: 100%;
+    background-image: url("../images/downloads-bg.jpg");
+    text-align: center;
+}
+
+#descuento-titulo {
+    padding-top: 8%;
+    padding-bottom: 2%;
+    font-size: 40px;
+}
+
+#descuento-descrip {
+    padding-bottom: 2%;
+    font-size: 18px;
+}
+
+.boton-descuento {
+    width: 300px;
+    height: 60px;
+    font-size: 20px;
+    color: #42dca3;
+    
+    background: none;
+    border-color: #42dca3;
+    border-block-color: #42dca3;
+}
+.boton-descuento:hover{
+    background-color: #42dca3;
+    color: black;
+}
+
+/*fin de estilos de la sección descuentos*/
+/*inicio de estilos de la sección contacto*/
+
+#contacto {
+    margin-left: 25%;
+    height: 400px;
+    width: 50%;
+    text-align: center;
+}
+
+#contacto span {
+    color: #42dca3;
+}
+
+#contacto-titulo {
+    padding-top: 8%;
+    padding-bottom: 2%;
+    font-size: 32px;
+}
+
+#contacto-descrip {
+    padding-bottom: 4%;
+    font-size: 18px;
+}
+
+.boton-redes {
+    width: 160px;
+    height: 40px;
+    font-size: 20px;
+    color: #42dca3;
+    background: none;
+    border-color: #42dca3;
+    border-block-color: #42dca3;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.boton-redes:hover{
+    background-color: #42dca3;
+    color: black;
+}
+/*fin de estilos de la sección contacto*/
+/*inicio de estilos de la sección reservaciones*/
+#reserva-seccion{
+    height: 700px;
+    background-color: black;
+}
+#div-titulo-reserva{
+    
+    width: 100%;
+    text-align: center;
+}
+#titulo-reserva{
+    
+    padding-bottom: 2%;
+    font-size: 32px;
+}
+#txtNombre, #fecha-entrada, #fecha-salida, #txtEmail, #telefono{
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 5px;
+}
+#reserva-seccion label, input{
+    margin-left: 25%;
+    font-size: 18px;
+}
+#div-btn{
+    width: 100%;
+    text-align: center;
+}
+#btnReservar{
+    width: 160px;
+    height: 40px;
+    font-size: 20px;
+    color: #42dca3;
+    background: none;
+    border-color: #42dca3;
+    border-block-color: #42dca3;
+}
+#btnReservar:hover{
+    background-color: #42dca3;
+    color: black;
+}
+.error-input{
+    border: 3px solid #42dca3;
+}
+/*fin de estilos de la sección reservaciones*/
+/*inicio de estilos del footer*/
+#pie {
+    padding-top: 40px;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+}
+
+footer p {
+
+    font-size: 14px;
+    text-align: center;
+
+}
+
+/*fin de estilos del footer*/

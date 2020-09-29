@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Cabin|Comfortaa|Shadows+Into+Light&display=swap"
+        rel="stylesheet">
+        <script src="https://kit.fontawesome.com/080f6bd1ac.js" crossorigin="anonymous"></script>
+    <title>Monte Nevado</title>
+</head>
+
+<body>
+    <header>
+        <div id="div-header">
+            <div id="barra-logo">
+                <hgroup>
+                    <h2>desarrollo.tech</h2>
+                    <h3>...making ideas possible!</h3>
+                </hgroup>
+            </div>
+            <div id="barra-nav">
+                <nav>
+                    <a id="primer-der" href="#reserva-seccion">RESERVAR</a>
+                    <a href="#contacto-seccion">CONTACTO</a>
+					<a href="#desc-seccion">OFERTA</a>
+                    <a href="#monte-seccion">MONTE NEVADO</a>
+                </nav>
+
+            </div>
+            <div id="info-header">
+                <p id="titulo-header">EL MONTE NEVADO</p><br>
+                
+                <p id="texto-header">Hotel de montaña todo incluido</p><br>
+                <p id="flecha"><i class="fas fa-angle-double-down"></i></i></p>
+            </div>
+
+        </div>
+    </header>
+
+
+
+    <main>
+        <section id="monte-seccion">
+            <div id="monte-div">
+                <p id="monte-nevado-titulo">MONTE NEVADO </p><br>
+                <p id="monte-nevado-parrafo">
+                    Monte Nevado es un hotel en la cima del <span>Monte Targón</span>, fundado en
+                    el año 1680. A lo largo de los años se ha convertido en el sitio
+                    predilecto de aquellos que buscan ascender.
+                    <br><br>
+                    Denominado como una de <span>Las nuevas maravillas</span> Monte Nevado
+                    transmite la sensación de conexión con el universo y con los
+                    diferentes <span>aspectos</span>.
+                    <br><br>
+                    Esperamos recibirlo pronto, para hacer de su estancia un momento
+                    inolvidable.</p>
+            </div>
+        </section>
+        <section id="desc-seccion">
+            <div id="descuento">
+                <div>
+                <p id="descuento-titulo">25% DE DESCUENTO</p>
+                <br>
+                <p id="descuento-descrip">Puede obtener un 25% de descuento</p>
+                <br>
+                <a href="#reserva-seccion"><button  class="boton-descuento">HACER RESERVACIÓN YA</button></a>
+            </div>
+            </div>
+        </section>
+        <section id="contacto-seccion">
+            <div id="contacto">
+                <div>
+                    <p id="contacto-titulo">CONTACTO</p>
+                    <br>
+                    <p id="contacto-descrip">Nos puede escribir sin ningún compromiso por cualquiera de nuestras redes
+                        sociales o por nuestro <span>chat en línea</span> </p>
+                    <br>
+                    <button class="boton-redes"><i class="fab fa-google-plus-g"></i> GOOGLE+</button>
+                    <button class="boton-redes"><i class="fab fa-twitter"></i> TWITTER</button>
+                    <button class="boton-redes">CHAT</button>
+            </div>
+        </section>
+        <section id="reserva-seccion">
+            <div id="div-titulo-reserva">
+                <p id="titulo-reserva">RESERVACIONES</p>
+            </div>
+            <form action="">
+                <div>
+                    <label for="txtNombre">Nombre completo</label><br><br>
+                    <input type="text" id="txtNombre"><br>
+                </div>
+                <div>
+                    <br><label for="fecha-entrada">Fecha de entrada</label><br><br>
+                    <input type="date"  id="fecha-entrada" required><br>
+                </div>
+                <div>
+                    <br><label for="fecha-salida">Fecha de salida</label><br><br>
+                    <input type="date" id="fecha-salida" required><br>
+                </div>
+                <div>
+                    <br><label for="txtEmail">Email</label><br><br>
+                    <input type="email" name="correo" id="txtEmail"><br>
+                </div>
+                <div>
+                    <br><label for="telefono">Telefono</label><br><br>
+                    <input type="tel" name="tel" id="telefono">
+                </div>
+                <div>
+                    <br><label for="moneda">Tipo de moneda con la que va a realizar el pago</label><br><br>
+                    <input type="radio" name="money" id="moneda"><span>Colones</span><br>
+                    <input type="radio" name="money" id="moneda"><span>Dólares</span><br>
+                    <input type="radio" name="money" id="moneda"><span>Euros</span><br>
+                </div>
+                <div>
+                    <br><br><input type="checkbox" name="terms" id="terminos"><span>Acepto los términos y condiciones</span>
+                </div>
+                <div id="div-btn">
+                    <br><br><button type="button" id="btnReservar">RESERVAR</button>
+                </div>
+                
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div id="pie">
+        <p>Copyright © Monte Nevado 2020</p>
+    </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <script src="js/controlador.js"></script>
+</body>
+
+</html>
